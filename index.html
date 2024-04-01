@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The N-Squared Puzzle Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div id="controls" class="choose">
+            <label for="selectedRow">Choose row size:</label>
+            <input type="radio" id="selectedRow3" name="selectedRow" value="3"> 3
+            <input type="radio" id="selectedRow4" name="selectedRow" value="4" checked> 4 
+            <input type="radio" id="selectedRow5" name="selectedRow" value="5"> 5
+            <input type="radio" id="selectedRow6" name="selectedRow" value="6"> 6
+            <button id="generate">Choose</button>
+        </div>
+        <div id="board" class="puzzle"></div>
+    </div>
+   
+</body>
+</html>
